@@ -1,0 +1,19 @@
+fasta type,pattern
+Uniprot_sp,>.*\|(?<symbol>\w+)\|
+Uniprot_protein_name,>.*\|.*\|(?<symbol>\w+\-?\d?)
+Uniprot_os,OS=(?<symbol>.*)GN=
+Uniprot_genename,GN=(?<symbol>\w+)
+NCBI_gi_accession,>gi\|(?<symbol>[0-9]*)
+NCBI_protein_accession,>.*\|.*\|(?<symbol>\w+[\-.]?\d?)
+NCBI_protein_name,>.*\|.*\|(?<symbol>.*)\[
+NCBI_os,\[(?<symbol>.*)\]
+NCBI_recfull_name,RecName:(?<symbol>.*)Short
+NCBI_recshort_name, Short=(?<symbol>\w*\s?\d?)
+test,test
+test,test
+test,test
+test,test
+test,test
+test,test
+test,test
+test,test

@@ -1,0 +1,3 @@
+perl "dofasta.pl"
+
+pause
